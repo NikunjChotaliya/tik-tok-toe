@@ -1,0 +1,27 @@
+.square {
+  background: #fff;
+  float: left;
+  font-size: 50px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background-color: #538fbe;
+  margin: 5px;
+  border: 1px solid #2d6898;
+}
+
+.game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.buttton {
+  margin: 5px;
+}
